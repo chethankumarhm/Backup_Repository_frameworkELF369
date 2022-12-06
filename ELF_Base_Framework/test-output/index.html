@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\cheth\git\ELF_Test_Automation_Framework\ELF_Test_Automation_Framework\ELF_Base_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_EnterInsurantData_radiobuttons" class="method navigator-link" hash-for-method="EnterInsurantData_radiobuttons">EnterInsurantData_radiobuttons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_EnterProductData_TestScript" class="method navigator-link" hash-for-method="EnterProductData">EnterProductData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_EnterVehicleData_only_Dropdowns_testScript" class="method navigator-link" hash-for-method="EnterVehicleData_Dropdowns">EnterVehicleData_Dropdowns</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Automobile_TestScript" class="method navigator-link" hash-for-method="automobileInsurance([Audi, 1200, 04/21/2000, 2, Electric Power, 1000, KA132021, 100, chethan, kumarhm, 06/19/1998, Male,...)">automobileInsurance([Audi, 1200, 04/21/2000, 2, Electric Power, 1000, KA132021, 100, chethan, kumarhm, 06/19/1998, Male,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_clickon_dropdown_TestScript" class="method navigator-link" hash-for-method="dropdown">dropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Radiobutton_TestScript" class="method navigator-link" hash-for-method="dropdown_click">dropdown_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Dropdown_getText_TestScript" class="method navigator-link" hash-for-method="dropdown_getTest">dropdown_getTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_EnterVehicleData_TestScript" class="method navigator-link" hash-for-method="enter_vechicle_data">enter_vechicle_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_facebook_TestScripts" class="method navigator-link" hash-for-method="facebook">facebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_MajorTab_TestSCript" class="method navigator-link" hash-for-method="majortabs">majortabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentics_Motorcycle_TestScript" class="method navigator-link" hash-for-method="registerUser([Audi, Scooter, 1200, 1500, 04/21/2000, 2, 10000, 150, chethan, kumarhm, 06/19/1998,  KHB satyamanga...)">registerUser([Audi, Scooter, 1200, 1500, 04/21/2000, 2, 10000, 150, chethan, kumarhm, 06/19/1998,  KHB satyamanga...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Register_TestScript" class="method navigator-link" hash-for-method="registerUser([1, Chethan, Kumar HM, 7012435033, India, 34, Blram, 685618, English, Africa/Abidjan, chethankumarhm...)">registerUser([1, Chethan, Kumar HM, 7012435033, India, 34, Blram, 685618, English, Africa/Abidjan, chethankumarhm...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Request_Demo_TestScript" class="method navigator-link" hash-for-method="request_demo">request_demo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_SearchBox_TestScript" class="method navigator-link" hash-for-method="searchbox">searchbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Solutions_TestScript" class="method navigator-link" hash-for-method="solution">solution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentics_Truck_TestScript" class="method navigator-link" hash-for-method="truckInsurance([Audi, 1000, 10/10/2021, 2, Electric Power, 1000, 10000, 50000, KA51K2021, 150, Chethu, kumarhm, 10/...)">truckInsurance([Audi, 1000, 10/10/2021, 2, Electric Power, 1000, 10000, 50000, KA51K2021, 150, Chethu, kumarhm, 10/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testDataSample.Tricentis_Camper_TestScript" class="method navigator-link" hash-for-method="vehicleData([Audi, 1000, 02/12/2022, 2, Electric Power, 1000, 1000, 50000, KA132021, 120, Chethan, kumarhm, 06/1...)">vehicleData([Audi, 1000, 02/12/2022, 2, Electric Power, 1000, 1000, 50000, KA132021, 120, Chethan, kumarhm, 06/1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_EnterInsurantData_radiobuttons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterInsurantData_radiobuttons">
+                  </a> <!-- EnterInsurantData_radiobuttons -->
+                  <span class="method-name">EnterInsurantData_radiobuttons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Register_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser([1, Chethan, Kumar HM, 7012435033, India, 34, Blram, 685618, English, Africa/Abidjan, chethankumarhm...)">
+                  </a> <!-- registerUser([1, Chethan, Kumar HM, 7012435033, India, 34, Blram, 685618, English, Africa/Abidjan, chethankumarhm...) -->
+                  <span class="method-name">registerUser</span>
+                  <span class="parameters">([1, Chethan, Kumar HM, 7012435033, India, 34, Blram, 685618, English, Africa/Abidjan, chethankumarhmm@@gmail.com, chethankumarhmm@@gmail.com,  Chethan@196,  Chethan@196, 9089])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Radiobutton_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdown_click">
+                  </a> <!-- dropdown_click -->
+                  <span class="method-name">dropdown_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Camper_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="vehicleData([Audi, 1000, 02/12/2022, 2, Electric Power, 1000, 1000, 50000, KA132021, 120, Chethan, kumarhm, 06/1...)">
+                  </a> <!-- vehicleData([Audi, 1000, 02/12/2022, 2, Electric Power, 1000, 1000, 50000, KA132021, 120, Chethan, kumarhm, 06/1...) -->
+                  <span class="method-name">vehicleData</span>
+                  <span class="parameters">([Audi, 1000, 02/12/2022, 2, Electric Power, 1000, 1000, 50000, KA132021, 120, Chethan, kumarhm, 06/19/1998, India, 573201, Public Official, 07/11/2023, 3000000, Full Coverage, chethankumarhmm@gmail.com, 9731745988, chethan, Chethan@196, Chethan@196])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_facebook_TestScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebook">
+                  </a> <!-- facebook -->
+                  <span class="method-name">facebook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentics_Motorcycle_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser([Audi, Scooter, 1200, 1500, 04/21/2000, 2, 10000, 150, chethan, kumarhm, 06/19/1998,  KHB satyamanga...)">
+                  </a> <!-- registerUser([Audi, Scooter, 1200, 1500, 04/21/2000, 2, 10000, 150, chethan, kumarhm, 06/19/1998,  KHB satyamanga...) -->
+                  <span class="method-name">registerUser</span>
+                  <span class="parameters">([Audi, Scooter, 1200, 1500, 04/21/2000, 2, 10000, 150, chethan, kumarhm, 06/19/1998,  KHB satyamangala hassan, India, 573201, Hassan, Employee, bike_Decko.com, 02/03/2023, 3000000, No Coverage, chethankumarhmm@gmail.com, 9731746888, chethan, Chethan@196, Chethan@196, WorkDone])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentics_Truck_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="truckInsurance([Audi, 1000, 10/10/2021, 2, Electric Power, 1000, 10000, 50000, KA51K2021, 150, Chethu, kumarhm, 10/...)">
+                  </a> <!-- truckInsurance([Audi, 1000, 10/10/2021, 2, Electric Power, 1000, 10000, 50000, KA51K2021, 150, Chethu, kumarhm, 10/...) -->
+                  <span class="method-name">truckInsurance</span>
+                  <span class="parameters">([Audi, 1000, 10/10/2021, 2, Electric Power, 1000, 10000, 50000, KA51K2021, 150, Chethu, kumarhm, 10/10/1961, Male, 3rd cross,JP Nagar, India, 573201, Bangalore, Employee, truckdecko.com, 11/30/2023, 2, 1, chethan123@gmail.com, 9876543210, chethan, Chethan@196, Chethan@196, I have completed the insurance process of truck])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_EnterVehicleData_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_vechicle_data">
+                  </a> <!-- enter_vechicle_data -->
+                  <span class="method-name">enter_vechicle_data</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_EnterVehicleData_only_Dropdowns_testScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterVehicleData_Dropdowns">
+                  </a> <!-- EnterVehicleData_Dropdowns -->
+                  <span class="method-name">EnterVehicleData_Dropdowns</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Request_Demo_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="request_demo">
+                  </a> <!-- request_demo -->
+                  <span class="method-name">request_demo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_EnterProductData_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterProductData">
+                  </a> <!-- EnterProductData -->
+                  <span class="method-name">EnterProductData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_MajorTab_TestSCript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="majortabs">
+                  </a> <!-- majortabs -->
+                  <span class="method-name">majortabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Automobile_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="automobileInsurance([Audi, 1200, 04/21/2000, 2, Electric Power, 1000, KA132021, 100, chethan, kumarhm, 06/19/1998, Male,...)">
+                  </a> <!-- automobileInsurance([Audi, 1200, 04/21/2000, 2, Electric Power, 1000, KA132021, 100, chethan, kumarhm, 06/19/1998, Male,...) -->
+                  <span class="method-name">automobileInsurance</span>
+                  <span class="parameters">([Audi, 1200, 04/21/2000, 2, Electric Power, 1000, KA132021, 100, chethan, kumarhm, 06/19/1998, Male,  KHB satyamangala hassan, India, 573201, Hassan, Employee, camper_Decko.com, 02/05/2023, 3000000, Super Bonus, No Coverage, Yes, chethankumarhmm@gmail.com, 9731745988, chethan, Chethan@196, Chethan@196, WorkDone])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Solutions_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="solution">
+                  </a> <!-- solution -->
+                  <span class="method-name">solution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_clickon_dropdown_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdown">
+                  </a> <!-- dropdown -->
+                  <span class="method-name">dropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_SearchBox_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchbox">
+                  </a> <!-- searchbox -->
+                  <span class="method-name">searchbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testDataSample.Tricentis_Dropdown_getText_TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdown_getTest">
+                  </a> <!-- dropdown_getTest -->
+                  <span class="method-name">dropdown_getTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cheth\git\ELF_Test_Automation_Framework\ELF_Test_Automation_Framework\ELF_Base_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Solutions_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Automobile_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Register_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_EnterVehicleData_only_Dropdowns_testScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_EnterProductData_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_EnterInsurantData_radiobuttons&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Request_Demo_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentics_Motorcycle_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentics_Truck_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Camper_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Radiobutton_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_Dropdown_getText_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_EnterVehicleData_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_clickon_dropdown_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_SearchBox_TestScript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_MajorTab_TestSCript&quot;/&gt;
+      &lt;class name=&quot;testDataSample.Tricentis_facebook_TestScripts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (17 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'automobileInsurance')
+data.setCell(0, 2, 'testDataSample.Tricentis_Automobile_TestScript')
+data.setCell(0, 3, 13364);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerUser')
+data.setCell(1, 2, 'testDataSample.Tricentics_Motorcycle_TestScript')
+data.setCell(1, 3, 12869);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'vehicleData')
+data.setCell(2, 2, 'testDataSample.Tricentis_Camper_TestScript')
+data.setCell(2, 3, 12659);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EnterProductData')
+data.setCell(3, 2, 'testDataSample.Tricentis_EnterProductData_TestScript')
+data.setCell(3, 3, 10886);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'majortabs')
+data.setCell(4, 2, 'testDataSample.Tricentis_MajorTab_TestSCript')
+data.setCell(4, 3, 10744);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registerUser')
+data.setCell(5, 2, 'testDataSample.Tricentis_Register_TestScript')
+data.setCell(5, 3, 10567);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'facebook')
+data.setCell(6, 2, 'testDataSample.Tricentis_facebook_TestScripts')
+data.setCell(6, 3, 9452);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'truckInsurance')
+data.setCell(7, 2, 'testDataSample.Tricentics_Truck_TestScript')
+data.setCell(7, 3, 3182);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'request_demo')
+data.setCell(8, 2, 'testDataSample.Tricentis_Request_Demo_TestScript')
+data.setCell(8, 3, 2842);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enter_vechicle_data')
+data.setCell(9, 2, 'testDataSample.Tricentis_EnterVehicleData_TestScript')
+data.setCell(9, 3, 1055);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'EnterVehicleData_Dropdowns')
+data.setCell(10, 2, 'testDataSample.Tricentis_EnterVehicleData_only_Dropdowns_testScript')
+data.setCell(10, 3, 646);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'EnterInsurantData_radiobuttons')
+data.setCell(11, 2, 'testDataSample.Tricentis_EnterInsurantData_radiobuttons')
+data.setCell(11, 3, 634);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'dropdown_getTest')
+data.setCell(12, 2, 'testDataSample.Tricentis_Dropdown_getText_TestScript')
+data.setCell(12, 3, 627);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dropdown')
+data.setCell(13, 2, 'testDataSample.Tricentis_clickon_dropdown_TestScript')
+data.setCell(13, 3, 494);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dropdown_click')
+data.setCell(14, 2, 'testDataSample.Tricentis_Radiobutton_TestScript')
+data.setCell(14, 3, 470);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'solution')
+data.setCell(15, 2, 'testDataSample.Tricentis_Solutions_TestScript')
+data.setCell(15, 3, 114);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchbox')
+data.setCell(16, 2, 'testDataSample.Tricentis_SearchBox_TestScript')
+data.setCell(16, 3, 114);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Solutions_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">1345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">solution</span>
+                <span class="method-start">3611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">3729 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Automobile_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">3869 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">4997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">automobileInsurance([Audi, 1200, 04/21/2000, 2, Electric Power, 1000, KA132021, 100, chethan, kumarhm, 06/19/1998, Male,...)</span>
+                <span class="method-start">8058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">21423 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Register_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">21545 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">22421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser([1, Chethan, Kumar HM, 7012435033, India, 34, Blram, 685618, English, Africa/Abidjan, chethankumarhm...)</span>
+                <span class="method-start">24898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">35466 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_EnterVehicleData_only_Dropdowns_testScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">35607 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">36338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnterVehicleData_Dropdowns</span>
+                <span class="method-start">38474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">39121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_EnterProductData_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">39224 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">39967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnterProductData</span>
+                <span class="method-start">41817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">52704 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_EnterInsurantData_radiobuttons</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">52835 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">53568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnterInsurantData_radiobuttons</span>
+                <span class="method-start">56424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">57059 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Request_Demo_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">57189 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">57948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">request_demo</span>
+                <span class="method-start">60601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">63444 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentics_Motorcycle_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">63580 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">64362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser([Audi, Scooter, 1200, 1500, 04/21/2000, 2, 10000, 150, chethan, kumarhm, 06/19/1998,  KHB satyamanga...)</span>
+                <span class="method-start">66474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">79343 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentics_Truck_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">79471 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">80311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">truckInsurance([Audi, 1000, 10/10/2021, 2, Electric Power, 1000, 10000, 50000, KA51K2021, 150, Chethu, kumarhm, 10/...)</span>
+                <span class="method-start">82241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">85423 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Camper_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">85546 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">86307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">vehicleData([Audi, 1000, 02/12/2022, 2, Electric Power, 1000, 1000, 50000, KA132021, 120, Chethan, kumarhm, 06/1...)</span>
+                <span class="method-start">88704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">101365 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Radiobutton_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">101493 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">102209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dropdown_click</span>
+                <span class="method-start">104234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">104705 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_Dropdown_getText_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">104812 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">105546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dropdown_getTest</span>
+                <span class="method-start">108102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">108729 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_EnterVehicleData_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">108882 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">109616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enter_vechicle_data</span>
+                <span class="method-start">112111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">113167 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_clickon_dropdown_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">113334 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">114074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dropdown</span>
+                <span class="method-start">116243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">116739 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_SearchBox_TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">116861 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">117700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchbox</span>
+                <span class="method-start">119914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">120029 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_MajorTab_TestSCript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">120167 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">120915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">majortabs</span>
+                <span class="method-start">122854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">133599 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testDataSample.Tricentis_facebook_TestScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetUp(noValue)</span>
+                <span class="method-start">133725 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">134491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebook</span>
+                <span class="method-start">136470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTearDown</span>
+                <span class="method-start">145923 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testDataSample.Tricentis_Solutions_TestScript"/>
+      <class name="testDataSample.Tricentis_Automobile_TestScript"/>
+      <class name="testDataSample.Tricentis_Register_TestScript"/>
+      <class name="testDataSample.Tricentis_EnterVehicleData_only_Dropdowns_testScript"/>
+      <class name="testDataSample.Tricentis_EnterProductData_TestScript"/>
+      <class name="testDataSample.Tricentis_EnterInsurantData_radiobuttons"/>
+      <class name="testDataSample.Tricentis_Request_Demo_TestScript"/>
+      <class name="testDataSample.Tricentics_Motorcycle_TestScript"/>
+      <class name="testDataSample.Tricentics_Truck_TestScript"/>
+      <class name="testDataSample.Tricentis_Camper_TestScript"/>
+      <class name="testDataSample.Tricentis_Radiobutton_TestScript"/>
+      <class name="testDataSample.Tricentis_Dropdown_getText_TestScript"/>
+      <class name="testDataSample.Tricentis_EnterVehicleData_TestScript"/>
+      <class name="testDataSample.Tricentis_clickon_dropdown_TestScript"/>
+      <class name="testDataSample.Tricentis_SearchBox_TestScript"/>
+      <class name="testDataSample.Tricentis_MajorTab_TestSCript"/>
+      <class name="testDataSample.Tricentis_facebook_TestScripts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
